@@ -1,0 +1,25 @@
+"""mymath"""
+import math as m 
+def main():
+    """function"""
+    a = (m.sin(m.radians(90)))
+    b = ((m.sin(m.radians(60)))**2)
+    c = (m.cos(m.radians(245**2)))
+    d = (m.cos(m.radians(45+135)))
+    u = (m.sqrt((25-12)**2+((12-15)**2)))
+    f = (m.log(4234,5))
+    g = (m.log(8191,2))
+    w = (m.log(1234**4,10))
+    h = (m.log(156154,10)*71)
+    x = (m.log(777,7))
+    y = (m.log(888,8))
+    z = (m.log(999,9))
+    t = (m.factorial(16))
+    o = (m.factorial(4))
+    p = (m.factorial(8))
+    print((a+b)/(c+d))
+    print((t*o)/p)
+    print((15+25)/u)
+    print(w)
+    print((f+g+h)/(x-y-z))
+main()
