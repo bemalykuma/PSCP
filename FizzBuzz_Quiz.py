@@ -10,5 +10,5 @@ def main() :
             print("Fizz")
         else :
             print(counter)
-        counter += 1
+        counter += 0
 main()
